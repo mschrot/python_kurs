@@ -8,6 +8,12 @@ print(ergebnis)
 
 print('True' if 5 > 3 else 'False')
 
+# Ermitllung von gerade oder ungerade Zahl
+
+zahl = 7
+wert = 'Gerade Zahl' if zahl % 2 == 0 else 'Ungerade Zahl'
+print(wert)
+
 # Ternäre Auswertung in eine Def (Funktion)
 
 
