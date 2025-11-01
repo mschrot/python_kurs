@@ -10,7 +10,7 @@
 # 1.) modul import
 import random
 
-# 2.) Obj mit viele...
+# 2.) Eine Liste erstellt mit vielen Obj. -> Str
 emoji_kiste = ["🍒", "🍉", "⭐", "🍋", "💎"]  # Liste
 
 # 3.) Objk. aus eine Kiste zufällig ziehen mit randomo fnk.
@@ -27,4 +27,5 @@ if slot_1 == slot_2 == slot_3:
     print('🎉 Gewonnen!')  # true
 else:
     print('🙁 Verloren!')
+
 
