@@ -18,8 +18,6 @@ emoji_kiste = ["🍒", "🍉", "⭐", "🍋", "💎"]  # Liste
 slot_1 = random.choice(emoji_kiste)
 slot_2 = random.choice(emoji_kiste)
 slot_3 = random.choice(emoji_kiste)
-slot_3 = random.choice(emoji_kiste)
-slot_3 = random.choice(emoji_kiste)
 
 # 4 Zufällige Obj. Ausgeben
 print(slot_1, slot_2, slot_3)
@@ -29,3 +27,4 @@ if slot_1 == slot_2 == slot_3:
     print('🎉 Gewonnen!')  # true
 else:
     print('🙁 Verloren!')
+
